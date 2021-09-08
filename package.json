@@ -1,0 +1,37 @@
+{
+  "name": "@habloapp/passport-unicauth",
+  "version": "1.0.2",
+  "description": "Unic Auth Strategy for Passport",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habloapp/passport-unicauth.git"
+  },
+  "keywords": [
+    "unicauth",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "2fa",
+    "passwordless"
+  ],
+  "author": {
+    "name": "HabloApp Inc.",
+    "email": "info@unicauth.com",
+    "website": "https://unicauth.com"
+  },
+  "license": "ISC",
+  "homepage": "https://unicauth.com/alpha",
+  "dependencies": {
+    "passport-strategy": "1.x.x",
+    "@habloapp/unicauth-wrapper": "1.0.x"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x",
+    "mocha": "1.x.x"
+  },
+  "scripts": {}
+}
