@@ -1,6 +1,6 @@
 {
   "name": "@habloapp/passport-unicauth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unic Auth Strategy for Passport",
   "main": "lib/index.js",
   "repository": {
