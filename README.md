@@ -37,3 +37,9 @@ const strategy = new UnicAuthStrategy({
 ```
 
 At [Passport docs](http://www.passportjs.org/docs/) you can find more examples on how Passport works with strategies.
+
+## Distribuition
+
+1.  Update package `version` at `package.json`.
+2.  Open terminal and run `npm publish`.
+3.  Visit https://www.npmjs.com/package/@habloapp/passport-unicauth to check latest version.
