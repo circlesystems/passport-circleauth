@@ -16,13 +16,13 @@ First make sure to get your credentials on [Circle Auth Console](https://console
 Install it via:
 
 ```shell
-npm install @habloapp/passport-unicauth --save
+npm install @circlesystems/passport-circleauth --save
 ```
 
 ## Example
 
 ```javascript
-const CircleAuthStrategy = require('@habloapp/passport-unicauth').Strategy
+const CircleAuthStrategy = require('@circlesystems/passport-circleauth').Strategy
 
 const strategy = new CircleAuthStrategy({
     appKey: APPLICATION_APPKEY,
@@ -42,4 +42,4 @@ At [Passport docs](http://www.passportjs.org/docs/) you can find more examples o
 
 1.  Update package `version` at `package.json`.
 2.  Open terminal and run `npm publish`.
-3.  Visit https://www.npmjs.com/package/@habloapp/passport-unicauth to check latest version.
+3.  Visit https://www.npmjs.com/package/@circlesystems/passport-circleauth to check latest version.
