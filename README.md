@@ -1,13 +1,13 @@
-# Unic Auth Strategy for Passport
+# Circle Auth Strategy for Passport
 
-Unic Auth Strategy for [Passport](http://www.passportjs.org/) using [Unic Auth API](https://unicauth.com/alpha/docs/)
+Circle Auth Strategy for [Passport](http://www.passportjs.org/) using [Circle Auth API](https://circleauth.gocircle.ai/docs/)
 <br>
 
-Unic Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
+Circle Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
 
 ## Installation
 
-First make sure to get your credentials on [Unic Auth](https://console.unicauth.com/), if you want to test first, use [Unic Auth - Demo](https://unicauth.com/demo)
+First make sure to get your credentials on [Circle Auth Console](https://console.gocircle.com/), if you want to test first, use [Circle Auth - Demo](https://circleauth.gocircle.ai/demo)
 
 ### For [Node.js](https://nodejs.org/)
 
@@ -22,9 +22,9 @@ npm install @habloapp/passport-unicauth --save
 ## Example
 
 ```javascript
-const UnicAuthStrategy = require('@habloapp/passport-unicauth').Strategy
+const CircleAuthStrategy = require('@habloapp/passport-unicauth').Strategy
 
-const strategy = new UnicAuthStrategy({
+const strategy = new CircleAuthStrategy({
     appKey: APPLICATION_APPKEY,
     readKey: APPLICATION_READKEY,
     writeKey: APPLICATION_WRITEKEY,
