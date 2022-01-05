@@ -1,14 +1,14 @@
 {
-  "name": "@habloapp/passport-unicauth",
-  "version": "1.0.4",
-  "description": "Unic Auth Strategy for Passport",
+  "name": "@circlesystems/passport-circleauth",
+  "version": "1.1.0",
+  "description": "Circle Auth Strategy for Passport",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/habloapp/passport-unicauth.git"
+    "url": "git+https://github.com/circlesystems/passport-circleauth.git"
   },
   "keywords": [
-    "unicauth",
+    "circleauth",
     "auth",
     "authn",
     "authentication",
@@ -18,15 +18,15 @@
     "passwordless"
   ],
   "author": {
-    "name": "HabloApp Inc.",
-    "email": "info@unicauth.com",
-    "website": "https://unicauth.com"
+    "name": "Circle Systems Inc.",
+    "email": "support@gocircle.ai",
+    "website": "https://circleauth.gocircle.ai"
   },
   "license": "ISC",
-  "homepage": "https://unicauth.com/alpha",
+  "homepage": "https://circleauth.gocircle.ai",
   "dependencies": {
     "passport-strategy": "1.x.x",
-    "@habloapp/unicauth-wrapper": "1.0.x"
+    "@circlesystems/circleauth-wrapper": "1.x.x"
   },
   "devDependencies": {
     "chai": "1.x.x",
