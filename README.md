@@ -1,13 +1,13 @@
 # Circle Auth Strategy for Passport
 
-Circle Auth Strategy for [Passport](http://www.passportjs.org/) using [Circle Auth API](https://circleauth.gocircle.ai/docs/)
+Circle Auth Strategy for [Passport](http://www.passportjs.org/) using [Circle Auth API](https://circleaccess.circlesecurity.ai/docs/)
 <br>
 
 Circle Auth allows you to quickly implement userless/passwordless login and 2FA (no more paying for SMS to have 2FA)
 
 ## Installation
 
-First make sure to get your credentials on [Circle Auth Console](https://console.gocircle.com/), if you want to test first, use [Circle Auth - Demo](https://circleauth.gocircle.ai/demo)
+First make sure to get your credentials on [Circle Auth Console](https://console.circlesecurity.com/), if you want to test first, use [Circle Auth - Demo](https://circleaccess.circlesecurity.ai/demo)
 
 ### For [Node.js](https://nodejs.org/)
 
